@@ -1,0 +1,167 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  color: lightslategray;
+  margin:auto;
+  padding: 10px;
+}
+
+header {
+ background-color: #14685d;
+ border: solid 10px #22a08f;
+ color: whitesmoke;
+ padding: 20px;
+ font-size: larger;
+
+}
+
+main {
+  padding: 40px;
+}
+
+footer {
+  bottom: 10px;
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  text-align: center;
+}
+
+
+nav a:link {
+
+  text-decoration: none;
+  color: black;
+  padding-left: 30px;
+  background-color: rgb(85, 202, 163);
+  border: solid 2px gray;
+  padding: 10px 25px;
+  margin: 10px;
+  text-align: center;
+
+}
+
+nav a:hover {
+  background-color: lightgray;
+}
+
+.quantity_selector {
+  float: right;
+  width: 15px;
+}
+
+.quantity_selector svg:first-of-type {
+  float: left;
+}
+.quantity_selector svg:last-of-type {
+  clear: both;;
+}
+
+table {
+  border: solid gray 1px;
+  border-radius: 3px;
+  margin: auto;
+  border-collapse: collapse;
+
+
+}
+
+caption {
+
+  font-size: large;
+  font-style: oblique;
+  padding-bottom: 7px;
+  padding-top: 7px;
+
+}
+
+tr th {
+  padding: 5px 15px;
+  border: solid gray 1px;
+
+}
+
+tr td {
+
+  padding: 2px 15px;
+  border: solid gray 1px;
+
+}
+
+
+
+fieldset {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #b4e7df98;
+
+}
+
+legend {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  margin: 5px;
+  border: solid gray 1px;
+  background-color: #14685d;
+  color: white;
+
+}
+
+label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  margin: 5px
+
+}
+
+input {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+
+}
+
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  background-color: #14685d;
+
+}
+
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #14685d;
+  min-height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
